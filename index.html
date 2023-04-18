@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black" >
+  <h1 class="text-center flex justify-center text-white text-[60px] font-bold mt-3">QR Code Generator</h1>
+  <div class="cardwrap mx-auto w-[739px] ">
+  <div class="cardd  ">
+    <div class="flex " >
+    <img src="./image 3.png" alt="" >
+    </div>
+    <div class="flex gap-28">
+      <div class="flex flex-col  gap-4">
+    <input type="text" placeholder="Enter your text or URL" id="text" class=" h-10 w-80 font-semibold px-4 py-4 m-2 border-2 border-[rgba(0, 0, 0, 0.4)] rounded-md">
+   <div class="flex">
+    <button onclick="Generate()" class="h-10  mx-2 border-2 bg-[#0061A8] text-white font-semibold  px-4 text-left border-blue-700 rounded-md" >Generate QR code</button>
+    <button id="btn" class="btn h-10  mx-2 border-2 bg-[#0061A8] text-white font-semibold  px-4 text-left border-blue-700 rounded-md" >Download</button>
+  </div>
+    </div>
+    <img src="" id="qrimg" alt="" class="items-center rounded-[8px]">
+
+  </div>
+  </div>
+</div>
+<script src="./FileSaver.js"></script>
+
+  <script src="./index.js"></script>
+</body>
+</html>

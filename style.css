@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Lato&family=Montserrat&family=Orbitron&family=Playfair+Display&family=Poppins:wght@200;400&display=swap');
+
+body{
+  background: linear-gradient(0deg, rgba(0, 97, 168, 0.2), rgba(0, 97, 168, 0.2)),
+  linear-gradient(210.31deg, #72A4EA 11.07%, rgba(0, 97, 168, 0.1) 81.56%);
+  
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  box-sizing: border-box;
+background-size: cover;
+background-repeat: no-repeat;
+height:100vh;
+font-family: 'Montserrat', sans-serif;
+}
+.cardwrap{
+  display: flex;
+  justify-content: center;
+}
+
+.cardd{
+  background: #F6FCFF;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
+  gap: 50px;
+  background-color: white;
+  justify-items: center;
+  margin: auto;
+  align-items: center;
+  height: 538px;
+  width: 739px;
+}
