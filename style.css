@@ -28,7 +28,7 @@ font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content:baseline;
-  gap: 50px;
+  /* gap: 50px; */
   background-color: white;
   justify-items: center;
   margin: auto;
